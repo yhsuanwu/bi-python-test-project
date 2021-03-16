@@ -1,7 +1,7 @@
 def say_hi(name):
-    print(f'Hi, {name}!')
+    return f'Hi, {name}!'
 
 
-if __name__ == '__main__':
-    myName = "Shanny"
-    say_hi(myName)
+def hmmm():
+    replyText = "hmmm..."
+    return replyText
