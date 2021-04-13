@@ -9,8 +9,8 @@ pipeline {
         stage('build') {
             steps {
                 echo "BRANCH_NAME = ${BRANCH_NAME}"
-                // echo "TAG_NAME = ${TAG_NAME}"
                 echo "BUILD_TAG = ${BUILD_TAG}"
+                echo "TAG_NAME = ${TAG_NAME}"
                 echo "FOO = ${env.FOO}"
             }
         }
