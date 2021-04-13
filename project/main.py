@@ -3,5 +3,5 @@ def say_hi(name):
 
 
 def hmmm():
-    replyText = "hmmm..."
-    return replyText
+    reply_text = 'hmmm...'
+    return reply_text

@@ -1,5 +1,4 @@
-import pytest
-from .context import project
+import project
 
 
 class TestMain:
