@@ -14,5 +14,11 @@ pipeline {
                 echo "FOO = ${env.FOO}"
             }
         }
+        stage('makefile test') {
+            steps {
+                echo 'Run make test'
+                sh 'make test'
+            }
+        }
     }
 }
