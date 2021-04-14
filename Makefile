@@ -1,8 +1,7 @@
 SHELL := /bin/bash
-TAG    = ${TAG_NAME}
-TAG   ?= $(shell git rev-parse HEAD)
+TAG_NAME   ?= $(shell git rev-parse HEAD)
 
 
 .PHONY: test
 test:
-    $(info Make: Building docker images: TAG=${TAG})
+    $(info Make: Building docker images: TAG=${TAG_NAME})
